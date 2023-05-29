@@ -1,8 +1,4 @@
 
-
-``
-mport './App.css';
-
 function MyComponent({name,city}) {
   return (
     <dev>
@@ -22,5 +18,3 @@ function App() {
 }
 
 export default App;
-
-``
