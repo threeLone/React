@@ -1,0 +1,13 @@
+
+
+function ListofAnimals() {
+  const data = [
+    {id:1, name: 'hello'},
+    {id:2, name: 'world'}
+  ]
+  return (
+    <ul>
+      {data.map(({id,name})=> <li>{name}</li>)}
+    </ul>
+  )
+}
